@@ -1,5 +1,3 @@
-// webpack.config.js
-
 const path = require("path");
 const webpack = require("webpack");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
@@ -23,12 +21,12 @@ module.exports = {
 },
 resolve: { extensions: ["*", ".js", ".jsx"] },
 output: {
-  path: path.resolve(_dirname, "dist/"),
+  path: path.resolve(__dirname, "dist/"),
   publicPath: "/dist/",
   filename: "bundle.js",
 },
 devServer: {
-  contentBase: path.join(_dirname, "/"),
+  contentBase: path.join(__dirname, "/"),
   port: 3000,
   publicPath: "http://localhost:3000/dist/",
   watchContentBase: true,
