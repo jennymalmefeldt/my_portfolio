@@ -5,16 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --mode development --open",
-
     "cy:open": "npm start & cypress open"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.11.5",
