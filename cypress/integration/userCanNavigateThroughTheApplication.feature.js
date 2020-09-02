@@ -27,7 +27,7 @@ it("does not display Hello world", () => {
 
 describe("to My Projects tab and it", () => {
   beforeEach(() => {
-    cy.get("projects-tab").click();
+    cy.get("#projects-tab").click();
   });
 
 it("displays My Projects header", () => {
@@ -49,7 +49,7 @@ it("does not display Hello world", () => {
 
 describe("back to My Portfolio/Hello tab and it", () => {
   beforeEach(() => {
-    cy.get("about-tab").click();
+    cy.get("#about-tab").click();
     cy.get("#header").click();
   });
 

@@ -9,8 +9,8 @@ const Header = () => {
           My Portfolio
         </Link>
         <div className="right menu">
-          <Navlink id="about-tab" className="ui item" activeStyle={{ frontWeight: "bold" }} to="/about"> About Me </Navlink>
-          <Navlink id="projects-tab" className="ui item" activateStyle={{ frontWeight: "bold" }} to="/projects"> Projects </Navlink>
+          <NavLink id="about-tab" className="ui item" activeStyle={{ frontWeight: "bold" }} to="/about"> About Me </NavLink>
+          <NavLink id="projects-tab" className="ui item" activateStyle={{ frontWeight: "bold" }} to="/projects"> Projects </NavLink>
         </div>
       </div>
     </nav>
