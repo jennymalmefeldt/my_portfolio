@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --mode development --open"
+    "start": "webpack-dev-server --inline --mode development --open",
+
+    "cy:open": "npm start & cypress open"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,6 +24,7 @@
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^4.2.2",
+    "cypress": "^5.1.0",
     "style-loader": "^1.2.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.44.1",
