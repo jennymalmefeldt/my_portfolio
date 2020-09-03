@@ -1,14 +1,23 @@
 import React from "react";
+import { UndrawDesignerLife } from "react-undraw-illustrations";
 
 const About = () => {
   return (
     <div className="ui main container">
-      <h1 id="about-header" className="ui header">About Me</h1>
+      <div class="column">
+        <UndrawDesignerLife />
+      </div>
+      <div class="column">
+      <h1 className="ui header">About Me</h1>
       <p>
-        Hej jag heter Jenny
+        Hi my names is Jenny
       </p>
     </div>
+  </div>
+</div>
+
   );
 };
 
 export default About;
+
