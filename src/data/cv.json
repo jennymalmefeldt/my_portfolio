@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Account Manager",
+    "image": "https://static.elysee.fr/images/default/0001/04/8a5fea614a542337494463a37d0a7665c38f72c8.jpeg?w=1550&h=710&crop=5515,3677,0,187&s=a394037e5eed9c8c525eeb0bc4efc9dc02f67e0d5f7aaee925e8d5b47836b891",
+    "description": "I was working as a Account Manager at WorkWeb"
+  },
+  {
+    "id": 2,
+    "name": "Craft Academy",
+    "image": "https://utbildning.blocket.se/static/media/header_images/schools/675/Craft-ACademy-header.jpg",
+    "description": "Fullstack developer"
+  }
+]

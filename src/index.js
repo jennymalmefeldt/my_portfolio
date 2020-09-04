@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Projects from "./Projects";
 import About from "./About";
-import CV from "./CV";
+import CV from "./Cv";
 
 
 const App = () => {
