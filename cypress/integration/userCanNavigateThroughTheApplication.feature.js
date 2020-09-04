@@ -47,6 +47,21 @@ it("does not display Hello world", () => {
 });
 });
 
+
+//CV
+
+describe("to my CV tab and it", () =>
+  beforeEach(() => {
+    cy.get("#cv-tab").click();
+  });
+});
+
+
+
+
+
+//Portfolio
+
 describe("back to My Portfolio/Hello tab and it", () => {
   beforeEach(() => {
     cy.get("#about-tab").click();
