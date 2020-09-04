@@ -1,7 +1,7 @@
 import axios from "axios";
 import ProjectCard from "./ProjectCard";
 import React, { Component } from "react";
-import { UndrawWebDevices } from "react-undraw-illustrations";
+import { UndrawBusinessPlan } from "react-undraw-illustrations";
 
 class Projects extends Component {
   state = {
@@ -34,7 +34,7 @@ class Projects extends Component {
       <div className="ui main container">
         <div className="ui stackable two column grid">
           <div className="column">
-            <UndrawWebDevices />
+            <UndrawBusinessPlan />
           </div>
           <div className="column">
             <h1 id="projects-header" className="ui header">

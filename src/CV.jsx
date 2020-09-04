@@ -1,12 +1,12 @@
 import React from "react";
-import { UndrawBusinesswoman } from "react-undraw-illustrations";
+import { UndrawAtWork } from "react-undraw-illustrations";
 
 const CV = () => {
   return (
     <div className="ui main container">
       <div class="ui stackable two column grid">
         <div class="column">
-          <UndrawBusinesswoman />
+          <UndrawAtWork />
         </div>
         <div class="column">
           <h1 id="cv-header" className="ui header">CV</h1>
