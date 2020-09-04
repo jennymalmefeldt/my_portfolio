@@ -9,8 +9,31 @@ const Header = () => {
           My Portfolio
         </Link>
         <div className="right menu">
-          <NavLink id="about-tab" className="ui item" activeStyle={{ frontWeight: "bold" }} to="/about"> About Me </NavLink>
-          <NavLink id="projects-tab" className="ui item" activateStyle={{ frontWeight: "bold" }} to="/projects"> Projects </NavLink>
+          <NavLink
+            id="about-tab"
+            className="ui item"
+            activeStyle={{ frontWeight: "bold" }}
+            to="/about"
+          >
+            
+            About Me
+          </NavLink>
+          <NavLink
+            id="projects-tab"
+            className="ui item"
+            activateStyle={{ frontWeight: "bold" }}
+            to="/projects"
+          >
+            Projects
+          </NavLink>
+          <NavLink
+            id="cv-tab"
+            className="ui item"
+            activateStyle={{ frontWeight: "bold" }}
+            to="/CV"
+          >
+            CV
+          </NavLink>
         </div>
       </div>
     </nav>

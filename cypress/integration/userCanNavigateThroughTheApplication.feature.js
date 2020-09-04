@@ -50,11 +50,11 @@ it("does not display Hello world", () => {
 
 //CV
 
-describe("to my CV tab and it", () =>
+describe("to my CV tab and it", () => {
   beforeEach(() => {
     cy.get("#cv-tab").click();
-  });
-});
+  })
+})
 
 
 
