@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { UndrawAtWork } from "react-undraw-illustrations";
 import CvCard from "./CvCard";
-import axios from 'axios'
+import axios from "axios";
 
 class Cv extends Component {
   state = {
@@ -31,21 +31,18 @@ class Cv extends Component {
 
     return (
       <div className="ui main container">
-        <div>
-          <h1 className="ui header"></h1>
-          <div class="ui stackable two column grid">
-            <div class="column">
-              <UndrawAtWork />
-            </div>
-            <div class="column">
-              <h1 id="cv-header" className="ui header">
-                CV
-              </h1>
-              <p>Hi my names is Jenny</p>
-            </div>
-            <div className="ui stackable four column grid">{experienceList}</div>
+        <div class="ui stackable two column grid">
+          <div class="column">
+            <UndrawAtWork />
+          </div>
+          <div className="column">
+            <h1 id="cv-header" className="ui header">
+              CV
+            </h1>
+            <p>Hi my names is Jenny</p>
           </div>
         </div>
+        <div className="ui stackable four column grid">{experienceList}</div>
       </div>
     );
   }
