@@ -10,9 +10,11 @@ const About = () => {
         </div>
         <div class="column">
           <h1 id="about-header" className="ui header">About Me</h1>
-          <p>
-            Hi my names is Jenny
-            </p>
+          <h4>
+            Hi, Im Jenny!
+            Im am 24 years old and live in Stockholm.
+             
+            </h4>
         </div>
       </div>
     </div>

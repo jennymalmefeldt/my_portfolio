@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { UndrawAtWork } from "react-undraw-illustrations";
+import {  UndrawBusinesswoman  } from "react-undraw-illustrations";
 import CvCard from "./CvCard";
 import axios from "axios";
 
@@ -33,13 +33,13 @@ class Cv extends Component {
       <div className="ui main container">
         <div class="ui stackable two column grid">
           <div class="column">
-            <UndrawAtWork />
+            < UndrawBusinesswoman  />
           </div>
           <div className="column">
             <h1 id="cv-header" className="ui header">
               CV
             </h1>
-            <p>Hi my names is Jenny</p>
+            <h4>Here can you find my previous jobs and education</h4>
           </div>
         </div>
         <div className="ui stackable four column grid">{experienceList}</div>

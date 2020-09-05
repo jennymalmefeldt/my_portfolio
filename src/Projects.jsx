@@ -40,7 +40,7 @@ class Projects extends Component {
             <h1 id="projects-header" className="ui header">
               My Projects
             </h1>
-            <p>Here should I write something</p>
+            <h4>Here should I write something</h4>
           </div>
         </div>
         <div className="ui stackable four column grid">{projectsList}</div>
