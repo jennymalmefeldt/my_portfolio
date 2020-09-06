@@ -10,7 +10,7 @@ describe("User can see list of cv", () => {
     cy.get("#cv-1").within(() => {
       cy.get(".image").should("exist");
       cy.get(".ui.header").should("contain", "Account Manager");
-      cy.get(".description").should("contain","I was working as a Account Manager at WorkWeb")
+      cy.get(".description").should("contain","Account Manager at WorkWeb")
     })
   });
   

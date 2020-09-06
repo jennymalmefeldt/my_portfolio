@@ -7,10 +7,10 @@ describe("User can see list of projects", () => {
 it("displays first project", () => {
   cy.get("#project-1").within(() => {
     cy.get(".image").should("exist");
-    cy.get(".ui.header").should("contain", "My First Website");
+    cy.get(".ui.header").should("contain", "Address Book");
     cy.get(".description").should(
       "contain",
-      "This was my first project"
+      "Address Book"
     );
   });
 });
