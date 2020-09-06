@@ -39,6 +39,12 @@ font-size: 40px;
   font-size: 40px;
 }
 
+#contact-header {
+  color: white;
+  font-family: 'Raleway';
+  font-size: 40px;
+}
+
 
 #navbar {
   font-size: large;
@@ -63,11 +69,22 @@ h4 {
 
 }
 
+h2 {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 
 
 p {
   color: black;
-  font-family: 'Abril Fatface';
+  font-family: 'Raleway';
+}
+
+#link {
+
+  color: palevioletred;
+
 }
 
 

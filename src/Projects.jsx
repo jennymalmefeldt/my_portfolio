@@ -40,7 +40,16 @@ class Projects extends Component {
             <h1 id="projects-header" className="ui header">
               My Projects
             </h1>
-            <h4>Here should I write something</h4>
+            <h4>To see all the projects that are being presented, press the link below!</h4>
+
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <a id="link" href="https://github.com/jennymalmefeldt"> Visit my GitHub!</a>
           </div>
         </div>
         <div className="ui stackable four column grid">{projectsList}</div>

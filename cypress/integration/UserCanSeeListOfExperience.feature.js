@@ -19,7 +19,7 @@ describe("User can see list of cv", () => {
     cy.get("#cv-2").within(() => {
       cy.get(".image").should("exist");
       cy.get(".ui.header").should("contain", "Craft Academy");
-      cy.get(".description").should("contain", "Fullstack developer");
+      cy.get(".description").should("contain", "Full Stack developer");
     })
   });
   

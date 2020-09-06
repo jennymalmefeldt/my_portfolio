@@ -32,7 +32,7 @@ it("displays third project", () => {
     cy.get(".ui.header").should("contain", "ATM");
     cy.get(".description").should(
       "contain",
-      "I was building a visual ATM machin"
+      "ATM Machine"
       );
     });
   });

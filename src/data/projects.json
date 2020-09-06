@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "name": "My First Website",
-    "image": "https://miro.medium.com/max/2688/1*Q8w9PI58DKjolhl5aDeiOQ.png",
-    "description": "This was my first project"
+    "name": "Address Book",
+    "image": "https://images.pond5.com/address-book-animated-word-cloud-footage-077947500_prevstill.jpeg",
+    "description": "Address Book"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "id": 3,
     "name": "ATM",
     "image": "https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/pair-programming-t.jpg",
-    "description": "I was building a visual ATM machin"
+    "description": "ATM Machine"
 
   }
 ]
