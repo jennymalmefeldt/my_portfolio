@@ -8,7 +8,7 @@ import Projects from "./Projects";
 import About from "./About";
 // import Cv from "./Cv";
 import Contact from "./Contact";
-import CvComponent from './Cv'
+import CvComponent from './CvComponent'
 
 
 const App = () => {
