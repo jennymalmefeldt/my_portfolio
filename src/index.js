@@ -8,7 +8,7 @@ import Projects from "./Projects";
 import About from "./About";
 // import Cv from "./Cv";
 import Contact from "./Contact";
-import Cv from './Cv'
+import CvComponent from './Cv'
 
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
       <Route exact path="/" component={Hello}></Route>
       <Route exact path="/about" component={About}></Route>
       <Route exact path="/projects" component={Projects}></Route>
-      <Route exact path="/CV" component={Cv}></Route>
+      <Route exact path="/Cv" component={CvComponent}></Route>
       <Route exact path="/Contact" component={Contact}></Route>
     </Switch>
     <Footer />

@@ -3,7 +3,7 @@ import {  UndrawBusinesswoman  } from "react-undraw-illustrations";
 import CvCard from "./CvCard";
 import axios from "axios";
 
-class Cv extends Component {
+class CvComponent extends Component {
   state = {
     experiences: [],
   };
@@ -48,4 +48,4 @@ class Cv extends Component {
   }
 }
 
-export default Cv;
+export default CvComponent;
