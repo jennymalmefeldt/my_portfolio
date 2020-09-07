@@ -27,7 +27,6 @@ describe("User can navigate the app", () => {
     it("does not display CV header", () => {
       cy.get("#cv").should("not.exist");
     });
-
   });
 
   describe("to My Projects tab and it", () => {
@@ -54,7 +53,6 @@ describe("User can navigate the app", () => {
     it("does not display CV header", () => {
       cy.get("#cv").should("not.exist");
     });
-
   });
 
   //CV
@@ -83,7 +81,6 @@ describe("User can navigate the app", () => {
     it("does not display Hello world", () => {
       cy.get("#hello").should("not.exist");
     });
-
   });
 
   //Portfolio
@@ -115,6 +112,5 @@ describe("User can navigate the app", () => {
     it("does not display CV header", () => {
       cy.get("#cv").should("not.exist");
     });
-
   });
 });
